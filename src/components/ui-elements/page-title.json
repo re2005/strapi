@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_elements_page_titles",
+  "info": {
+    "displayName": "Page title",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

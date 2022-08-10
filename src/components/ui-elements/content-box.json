@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_elements_content_boxes",
+  "info": {
+    "displayName": "Content Box",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

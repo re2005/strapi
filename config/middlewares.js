@@ -13,7 +13,7 @@ module.exports = [
         config: {
             enabled: true,
             headers: '*',
-            origin: ['http://localhost:3000', 'https://nuxt-strapi.vercel.app']
+            origin: ['http://localhost:1337', 'http://localhost:3000', 'https://nuxt-strapi.vercel.app', 'https://estrapi.herokuapp.com']
         }
     },
     {

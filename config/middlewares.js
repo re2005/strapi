@@ -13,7 +13,10 @@ module.exports = [
         config: {
             enabled: true,
             headers: '*',
-            origin: ['http://localhost:1337', 'http://localhost:3000', 'https://nuxt-strapi.vercel.app', 'https://estrapi.herokuapp.com']
+            origin: [
+              'http://localhost:1337', 'http://localhost:3000', 'https://nuxt-strapi.vercel.app', 'https://estrapi.herokuapp.com',
+              '*gitbook.io'
+            ]
         }
     },
     {
@@ -23,8 +26,8 @@ module.exports = [
                 useDefaults: true,
                 directives: {
                     'connect-src': ['\'self\'', 'https:'],
-                    'img-src': ['\'self\'', 'data:', 'blob:', 'dl.airtable.com', 'res.cloudinary.com'],
-                    'media-src': ['\'self\'', 'data:', 'blob:', 'dl.airtable.com', 'res.cloudinary.com'],
+                    'img-src': ['\'self\'', 'data:', 'blob:', 'dl.airtable.com', 'res.cloudinary.com', '*gitbook.io'],
+                    'media-src': ['\'self\'', 'data:', 'blob:', 'dl.airtable.com', 'res.cloudinary.com', '*gitbook.io'],
                     upgradeInsecureRequests: null,
                 },
             },

@@ -22,7 +22,9 @@
       "type": "dynamiczone",
       "components": [
         "ui-elements.content-box",
-        "ui-elements.page-title"
+        "ui-elements.page-title",
+        "ui-elements.box-list",
+        "ui-elements.single-box"
       ]
     },
     "slug": {

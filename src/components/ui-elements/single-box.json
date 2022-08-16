@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ui_elements_single_boxes",
+  "info": {
+    "displayName": "Single box",
+    "icon": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "logos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

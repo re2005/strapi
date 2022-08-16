@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_elements_box_lists",
+  "info": {
+    "displayName": "Box List",
+    "icon": "braille",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "boxes": {
+      "displayName": "Single box",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-elements.single-box"
+    }
+  }
+}
